@@ -88,7 +88,7 @@ reviewSchema.post('save', function () {
 
 reviewSchema.pre(/^findOneAnd/, async function (next) {
   this.r = await this.findOne() // -> Passing the data from the 'pre' middleware to the 'post' middleware.
-  console.log(this.r)
+  // console.log(this.r)
 })
 
 reviewSchema.post(/^findOneAnd/, async function () {
