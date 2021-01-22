@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-// const Review = require('./../models/reviewModel')
+// const Review = require('../models/reviewModel')
 
 const slugify = require('slugify')
 // const validator = require('validator')
